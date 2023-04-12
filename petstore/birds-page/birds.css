@@ -1,0 +1,140 @@
+/* the reference website:- https://standardbots.com/?ref=land-book.com */
+
+.about-site-header{
+    z-index: 3;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-top: -20px;
+    right: 0;
+    padding: 20px 0px 0px 0px;
+  }
+  #a1{
+    padding-left: 40%;
+  }
+
+  /* started */
+.birds-page-banner {
+    padding: 70px 0 450px 0;
+    position: relative;
+}
+@media (min-width: 760px) {
+    .birds-page-banner {
+      padding: 130px 0 900px 0;
+    }
+}
+.birds-page-banner__content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    justify-content: center;
+}
+
+.birds-page-banner__bg-image {    
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.birds-page-banner__content h1{
+  font-weight: 450;
+  font-size: 40px;
+}
+.birds-page-banner__content p{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.birds-page-banner__content a{
+  font-size: 20px;
+}
+@media (min-width: 730px){
+  .birds-page-banner__content h1{
+    font-weight: 450;
+    font-size: 60px;
+  }
+  .birds-t-center {
+    text-align: center;
+    width: 50%;
+  }
+}
+.birds-t-center {
+  text-align: center;
+  width: 70%;
+}
+.birds-btn--blue {
+  color: rgb(247, 39, 39);
+  text-decoration: none;
+}
+.right-arrow{
+  font-size: 20px;
+  font-weight: 900;
+  padding-left: 4px;
+}
+
+
+.birds-full-width-split__one{
+  width: 90%;
+  padding: 0px 20px 0px 20px;
+}
+.birds-full-width-split__one h1{
+  color: rgb(247, 39, 39);
+  font-size: 40px;
+  font-weight: 500;
+}
+.birds-full-width-split__one p{
+  font-size: 23px;
+}
+.birds-full-width-split__two p{
+  font-size: 23px;
+}
+.birds-full-width-split__two{
+  width: 90%;
+  padding: 50% 20px 0px 20px;
+}
+.birds-page-banner-1 {
+  padding: 70px 0 40px 0;
+  position: relative;
+}
+@media (min-width: 760px) {
+  .birds-full-width-split__one{
+    width: 50%;
+    padding: 0px 0px 0px 50px;
+  }
+  .birds-full-width-split__one h1{
+    color: rgb(247, 39, 39);
+    font-size: 50px;
+    font-weight: 600;
+    width: 60%;
+  }
+  .birds-full-width-split__one p{
+    font-size: 23px;
+    font-weight: 400;
+  }
+  .birds-full-width-split__two p{
+    font-size: 23px;
+    font-weight: 400;
+  }
+  .birds-full-width-split__two{
+    width: 45%;
+    padding: 20% 10px 10% 55%;
+  }
+  .birds-page-banner-1 {
+    padding: 70px 0 100px 0;
+  }
+}
+
+.heading-div{
+  padding: 30px 20px 20px 0px;
+}
+.video-div video{
+  width: 90%;
+  height: 100%;
+  position: relative;
+  margin: 5%;
+  border-radius: 20px;
+}
+#data{
+  display: inline;
+}

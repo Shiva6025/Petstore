@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>index</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="cats.css">
+    <link rel="stylesheet" href="../style-index.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <header class="cat-site-header" id="site-header">
+        <div class="cat-container">
+          <h1 class="cat-school-logo-text float-left">
+            <a href="../index.html"><strong>Lucky</strong>PetStore</a>
+          </h1>
+          <!-- <span class="js- site-header__search-trigger" style="margin-top: 10px;"><i class="fa fa-search" aria-hidden="true"></i></span> -->
+          <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true" style="margin-top: 10px;"></i>
+          <div class="site-header__menu group" style="margin: 0px 20px 0px 0px;">
+            <nav class="main-navigation">
+              <ul>
+                <li><a href="../about-us/about.html">About Us</a></li>
+                <li><a href="../dogs-page/dogs.html">Dogs</a></li>
+                <li id="li1"><a href="cats.html">Cats</a>
+                <li><a href="../birds-page/birds.html">Birds</a></li>
+                <li><a href="../Food-page/food.html">Food</a></li>
+              </ul>
+            </nav>
+            <div class="site-header__util">
+              <!-- <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a> -->
+              <a href="#" class="btn btn--small btn--dark-orange float-left" onclick="openNav()">Contact Us</a>
+              <!-- <span class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span> -->
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- overlay content -->
+      <div id="myNav" class="overlay" style="background-color: #000;">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="background-color: #000;">&times;</a>
+        <div class="overlay-content" style="background-color: #000;">
+          <label for="name" style="background-color: #000">Name</label>
+          <input type="text">
+          <label for="name" style="background-color: #000">Gmail</label>
+          <input type="text"><br>
+          <a class="btn btn--small btn--yellow" style="margin-top: 20px;">Submit</a>
+          <p style="background-color: #000; margin: 10px 0 0px; color: #fff;">OR</p>
+          <p style="background-color: #000; margin: 0; color: #fff;">Contact us</p>
+          <p style="background-color: #000; margin: 0; color: #fff;">Number: 0000000000</p>
+          <p style="background-color: #000; color: white;">Gmail: 0000000000@lucky.com</p>
+          
+        </div>
+      </div>
+<!-- overlay closed -->
+
+      <div class="cat-main-div">
+        <div>
+          <h1>We have your loved cat</h1>
+          <p>Just contact us and say what you want, and leave the rest to us we'll take care of everything.</p>
+          <p class="btn-main-div cat-btn cat-btn--small"><a href="#" class="main-div-btn">Talk to us</a></p>
+        </div>
+      </div>
+
+      <div class="cat-page-banner">
+        <div class="cat-page-banner__bg-image" style="background-image: url('cat-images/rogdoll-cat.jpg');"></div>
+      </div>
+      <hr/>
+      <div class="container">
+        <div class="like-cat-full-width-split-1 group">
+          <div class="like-cat-full-width-split__one-1">
+            <img src="cat-images/Scottish-folds-cat.jpg" alt="Scottish-folds-cat">
+          </div>
+          <div class="like-cat-full-width-split__one-1">
+            <h1>This is Scottish Folds. </h1>
+            <p>This is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam quos accusantium, a sed excepturi laudantium soluta porro. Similique corrupti iusto minima, ad vitae deleniti aliquid maxime quidem ut magnam.</p>
+          </div>
+        </div>
+      </div>
+      <hr/>
+      <div class="container">
+        <div class="like-cat-full-width-split-1 group">
+          <div class="like-cat-full-width-split__one-1">
+            <h1>This is Somali. </h1>
+            <p>This is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam quos accusantium, a sed excepturi laudantium soluta porro. Similique corrupti iusto minima, ad vitae deleniti aliquid maxime quidem ut magnam.</p>
+          </div>
+          <div class="like-cat-full-width-split__one-1" style="height: 50%;">
+            <img src="cat-images/Somali-cat.jpg" alt="Scottish-folds-cat">
+          </div>
+        </div>
+      </div>
+      <hr/>
+      <div class="container">
+        <div class="like-cat-full-width-split-1 group">
+          <div class="like-cat-full-width-split__one-1">
+            <img src="cat-images/maine coons-cat.jpg" alt="Scottish-folds-cat">
+          </div>
+          <div class="like-cat-full-width-split__one-1">
+            <h1>This is Maine Coons. </h1>
+            <p>This is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam quos accusantium, a sed excepturi laudantium soluta porro. Similique corrupti iusto minima, ad vitae deleniti aliquid maxime quidem ut magnam.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="like-cat-page-banner">
+        <p class="headline headline--medium">Look at this cute cats</p>
+        <div class="like-cat-full-width-split dog-group">
+          <div class="like-cat-full-width-split__one">
+            <img src="cat-images/persian.png" alt="Boxer">
+            <h4>Boxer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A beatae placeat, adipisci perferendis voluptate natus architecto fugiat.</p>
+        </div>
+        <div class="like-cat-full-width-split__one">
+            <img src="cat-images/american-bobtail.png" alt="Boxer">
+            <h4>Rottweiler</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A beatae placeat, adipisci perferendis voluptate natus architecto fugiat.</p>
+        </div>
+        <div class="like-cat-full-width-split__one">
+            <img src="cat-images/Selkirk-Rex-cat.jpg" alt="Boxer">
+            <h4>Rottweiler</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A beatae placeat, adipisci perferendis voluptate natus architecto fugiat.</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="cat-container-div">
+        <div class="bg-cat-image">
+          <div class="my-div">
+          <h1>This is our greatest strength <br/> which we proud of </h1>
+          <button class="bg-cat-btn cat-btn--small bg-cat-btn-div">Go for food</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <footer class="site-footer" style="background-image: none;">
+        <div class="site-footer__inner container container--narrow" >
+          <div class="group" >
+            <div class="site-footer__col-one" >
+              <h1 class="school-logo-text school-logo-text--alt-color" style="z-index: 0;" >
+                <a href="../index.html"><strong>Lucky</strong>PetStore</a>
+              </h1>
+              <!-- <p><a class="site-footer__link" href="#">555.555.5555</a></p> -->
+            </div>
+  
+            <div class="site-footer__col-two-three-group">
+              <div class="site-footer__col-two">
+                <h3 class="headline headline--small">Explore</h3>
+                <nav class="nav-list">
+                  <ul>
+                    <li><a href="../about-us/about.html">About Us</a></li>
+                    <li><a href="../dogs-page/dogs.html">Dogs</a></li>
+                    <li><a href="cats.html">Cats</a></li>
+                    <li><a href="../birds-page/birds.html">Birds</a></li>
+                  </ul>
+                </nav>
+              </div>
+  
+              <div class="site-footer__col-three">
+                <h3 class="headline headline--small">We Also Provide</h3>
+                <nav class="nav-list">
+                  <ul>
+                    <li><a href="../Food-page/food.html">Food</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+  
+            <div class="site-footer__col-four">
+              <h3 class="headline headline--small">Connect With Us</h3>
+              <nav>
+                <ul class="min-list social-icons-list group">
+                  <li>
+                    <a href="#" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-color-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-color-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-color-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+        <script>
+            if(window.location.pathname=='/C:/Users/ShivaKrishnaAnamala/Pet%20store%20apps/ongoing%20Petstore/cats-page/cats.html'){
+    document.getElementById('li1').classList.add('current-menu-item');
+    // if(window.innerWidth>=960){
+    // document.getElementById('a1').innerHTML += ' &#8595;';
+    // }
+  }
+
+  window.addEventListener(
+  "scroll",
+  () => {
+    document.body.style.setProperty(
+      "--scroll",
+      window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+    );
+  },
+  false
+);
+
+function openNav(){
+            document.getElementById('myNav').style.height="70%";
+            document.body.classList.add("disable-scrolling");
+          }
+          function closeNav(){
+            document.getElementById('myNav').style.height="0%";
+            document.body.classList.remove("disable-scrolling")
+          }
+        </script>
+  </body>
+    <script src="../index.js"></script>
+</html>
